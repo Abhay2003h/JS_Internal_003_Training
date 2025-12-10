@@ -176,19 +176,19 @@ for(let i=1;i<=n2;i++){
 
 // 23. Min and Max from array
 function minMax(arr){
-  return [Math.min(...arr), Math.max(...arr)];
+  return [Math.min(...arr),Math.max(...arr)];
 }
 console.log(minMax([4,2,8,1,9]));
 
 
 
-// 24. Simple Menu Program using switch case
+// 24.Simple Menu Program using switch case
 let ch=2,a3=10,b3=5;
 switch(ch){
-  case 1: console.log(a3+b3); break;
-  case 2: console.log(a3-b3); break;
-  case 3: console.log(a3*b3); break;
-  case 4: console.log(a3/b3); break;
+  case 1:console.log(a3+b3); break;
+  case 2:console.log(a3-b3); break;
+  case 3:console.log(a3*b3); break;
+  case 4:console.log(a3/b3); break;
 }
 
 
