@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Success</title>
+</head>
+<body style="font-family:Arial; background:#e8ffe8; padding:30px;">
+<div style="background:#fff; padding:20px; max-width:400px; margin:auto; border-radius:8px; color:green;">
+    <h2>Registration Successful!</h2>
+    <p><b>Name:</b> <span id="name"></span></p>
+    <p><b>Email:</b> <span id="email"></span></p>
+    <p><b>Gender:</b> <span id="gender"></span></p>
+    <p><b>Course:</b> <span id="course"></span></p>
+
+</div>
+<script>
+document.getElementById("name").innerHTML = localStorage.getItem("name");
+document.getElementById("email").innerHTML = localStorage.getItem("email");
+document.getElementById("gender").innerHTML = localStorage.getItem("gender");
+document.getElementById("course").innerHTML = localStorage.getItem("course");
+</script>
+</body>
+</html>
